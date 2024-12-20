@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    color: #fff;
+    font-family: "Roboto Condensed" , serif ;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #CDC1FF;
+    font-weight: 900;
+    padding-top: 25px;
+}
+
+body {
+    background-color: black;
+}
+
+form {
+    height: 80vh;
+    width: 40vw;
+    background-color: #ffffff0a;
+    margin: auto;
+    margin-top: 30px;
+    border: solid #fff 2px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  rgba(119, 0, 255, 0.3) , -5px -5px 10px  rgba(119, 0, 255, 0.3);
+    padding: 25px;
+    overflow-y: auto;
+}
+
+form ::-webkit-scrollbar {
+    display: none;
+}
+
+.h2 {
+    background-color: #ffffff00;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#input {
+    padding: 20px 82px;
+    border-radius: 10px;
+    border : solid black 2px ;
+    font-size : 20px ;
+    color: black;
+    text-align: center;
+}
+
+#btn {
+    padding: 20px 50px;
+    font-size: 20px;
+    background-color: #A294F9;
+    color: #fff;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+span {
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid #fff 2px;
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    z-index: -1;
+}
+
+#qr-code {
+    margin-top: 20px;
+    height: 45vh;
+    width: 25vw;
+    background-color: #ffffff3c;
+    border: solid #fff 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#download {
+    padding: 15px 230px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: solid black 2px;
+    background-color: #A294F9;
+    position: relative;
+    left: 0px;
+    top: 15px;
+}
+
+#btn:hover , #download:hover {
+    background-color: #CDC1FF;
+    border: solid #fff 2px;
+}
+
+
+/* --------------------- To Make it Responsive ------------------- */ 
+
+/* for mobile devices ----> */
+@media screen and (max-width : 480px) {
+    
+}
+
+/* for Tablet and mobile -----> */
+@media screen and (max-width: 768px) {
+    form {
+        width: 90%;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+
+    .h2 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    #input {
+        font-size: 15px;
+        padding: 10px 100px;
+        margin-bottom: 10px;
+    }
+
+    #btn {
+        font-size: 15px;
+        padding: 10px 150px;
+    }
+
+    #download {
+        padding: 10px 150px;
+    }
+
+    #input, #btn, #download {
+        width: 100%;
+        max-width: none;
+    }
+
+    #qr-code {
+        width: 90%;
+        margin: 15px auto;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet-specific styles */
+}
