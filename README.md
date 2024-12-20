@@ -8,3 +8,5 @@ Key Features:
 - One-click download functionality
 - Fully responsive design
 - Dark mode with elegant purple glow effects
+
+Deployed Link : https://itsqrcodegenerator.netlify.app/
